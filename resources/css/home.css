@@ -1,0 +1,18 @@
+.homeimage img {
+	height: 100px;
+	width: 130px;
+}
+
+#commentcontainer {
+	border:1px solid rgb(215, 234, 255);
+	border-radius: 10px;
+	background-color: rgb(215, 234, 255);
+	padding:3px;
+}
+
+#spacerlist {
+	border:1px solid #70FF94;
+	border-radius:7px;
+	background-color: #70FF94;
+	padding: 3px;
+}

@@ -1,0 +1,9 @@
+#box {
+	width:100%;
+	height:50%;
+	border-radius:5px;
+	border: 1px solid black;
+}
+#titulo {
+	text-align:center;
+	}

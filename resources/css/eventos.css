@@ -1,0 +1,224 @@
+body {
+	overflow-x: hidden;
+}
+
+#top_eventos {
+	float: left;
+	position: relative;
+	width: 50%; 
+	background-color: #fff;
+	border-radius: 7px;
+	margin-top: 1%;
+	padding: 10px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);	-moz-box-shadow: 0 1px 2px hsla(0,0%,0%,0.2);	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+#top_eventos_img {
+	position: relative;
+	width: 200px; 
+	height: 200px;
+}
+#top_eventos_info {
+	position: relative;
+	text-align: left;
+	height: 200px;
+}
+#grafica_evento_div {
+	position: relative;
+	width: 39.5%;
+	height: 39.5%;
+	background-color: #fff;
+	border-radius: 7px;
+	float: left;
+	margin-top: 1%;
+	left: 1%;
+	padding: 10px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);	-moz-box-shadow: 0 1px 2px hsla(0,0%,0%,0.2);	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+#divsor {
+	width: 100%; 
+	background-color: red;
+	border-radius: 7px;
+	margin-top: 1%;
+	float: left;
+}
+
+#container_eventos {
+	position: relative;
+	width: 65%;
+	padding: 10px;
+	float: left;
+	text-align: left;
+	margin-top: 0%;
+	left: 1%;
+	border-left: 0px none;
+	border-radius: 7px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);	
+	-moz-box-shadow: 0 1px 2px hsla(0,0%,0%,0.2);	
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+#descripcion_eventos {
+	position: relative;
+	border-bottom: 1px solid #cccccc;
+}
+.overlay{
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 8;
+    opacity:.75;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+.modal {
+	display: none;
+    position: fixed;
+    top: 15%;
+
+    width: 75%;
+    height: 75%;
+    padding: 16px;
+    border-radius: 7px;
+    background: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);	
+	-moz-box-shadow: 0 1px 2px hsla(0,0%,0%,0.2);	
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	color: #333;
+    z-index: 9;
+    overflow: auto;
+}
+.boton_redondo {
+	float: right;
+	min-height: 30px;
+	min-width: 30px;
+	border-radius: 50%;
+	background: -webkit-linear-gradient(#518eff, #4b85f0);
+   	background: -moz-linear-gradient(#518eff, #4b85f0);
+   	background: -o-linear-gradient(#518eff, #4b85f0);
+	color: #fff;
+	border: 0px;
+	font-size: 16px;
+	padding: 1px 6px;
+	margin-top: -2%;
+	margin-right: -2%;
+}
+#followers_evento h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #4d4d4d;
+}
+#top_eventos h5, #sidebar_eventos h5 {
+	font-size: 14px;	
+	font-weight: lighter;
+	color: #000;
+}
+#top_eventos h5 small, #sidebar_eventos h5 small {
+	font-size: 14px;
+	font-weight: lighter;
+	color: #0069D6;
+}
+#graphic_bar {
+	position: relative;
+}
+.graphic_bar td{
+	width: 80px;
+	display: block;
+	border-bottom: 1px solid #6d6d6d;
+	top: 10%; 
+	font-family: "Arial", "Helvetica";
+	font-size: 10px;
+	font-weight: lighter;
+	color: #ccc;
+}
+input {
+	font-family: "Arial", "Helvetica";
+	font-size: 10px;
+	font-weight: lighter;
+	color: black;
+} 
+.ggraphic_bar {
+	position: absolute; 
+	bottom: 0%; 
+	width: 80px;
+	display: block;
+	background-color: #0081dc;
+	border-bottom: 1px solid #6d6d6d;
+	font-family: "Arial", "Helvetica";
+	font-size: 10px;
+	font-weight: lighter;
+	color: #ccc;
+}
+			#inv_events { 
+				background-color: #ffffff; 
+				width: 50%;
+
+				border-radius: 7px;
+				margin: 0 auto;
+			} 
+			
+			#inv_events_amigos {
+				position: relative;
+				background-color: #f5f5f5;
+				width: 90%;
+				margin-left: 5%;
+				top: 5%;
+				border: 1px solid #ccc;
+				border-radius: 7px;
+			}
+			#inv_events_select {
+				position: relative;
+				background-color: #f5f5f5;
+				width: 90%;
+				margin-left: 5%;
+				top: 9%;		
+				border: 1px solid #ccc;
+				border-radius: 7px;
+			}
+
+#inboxin {
+	width:90%;
+	margin:0 auto;
+	background-color:white;
+	border-radius:10px;
+}
+
+#inboxin h2 {
+	padding-left:15px;
+	padding-top:15px;
+}
+
+#inboxin #titulo,#texto{
+	position:relative;
+	left:35px;
+	border-radius:10px;
+}
+#inboxin #dia{
+	width:30%;
+	position:relative;
+	left:35px;
+	border-radius:10px;
+}
+
+.h2 {
+	display: block;
+	font-size: 1.5em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+/* INPUTS MODIFICADOS */
+
+input[type=text] {
+	position: relative;
+	width: 90%;
+	left: 35px;
+	border-radius: 10px;
+}

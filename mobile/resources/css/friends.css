@@ -1,0 +1,86 @@
+#search_tabs {
+	position: relative;
+	width:95%;
+	font-size:93%;
+	line-height:normal;
+}
+#search_tabs ul {
+	list-style:none;
+}
+#search_tabs li {
+	float:left;
+	background-color: lightgrey;
+	margin:0px;
+	margin-right:1px;
+	border-radius: 10px;
+	padding: 5px;
+}
+#search_tabs a {
+	float:left;
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	color:#fff;
+}
+#search_tabs a {
+	float:none;
+}
+#search_tabs a:hover {
+	color:#0096ff;
+}
+#search_tabs li:hover {
+	background-color: grey;
+}
+
+#select_groups {
+	background-color: #dddddd;
+	margin-top: 1%;   	
+	font-size: 12px;
+   	border: 1px solid #ccc;
+   	height: 24px;
+}
+
+#search_results {
+	position: relative;
+}
+
+#info_container {
+	width:300px;
+	height:70px;
+}
+
+#info_container2 {
+	position: relative;
+	text-align: left;
+	left:30%;
+	top:-40px;
+
+}
+
+#botton {
+	position: relative;
+	top:-30px;
+	right:140px;
+}
+
+.delete {
+	position: relative;
+	left: 30%;
+	bottom:35px;
+}
+
+#info_container img {
+	width: 80px;
+	height: 80px;
+}
+
+#city_friendsearch {
+	width: 90%;
+	height: 30px;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+}
+
+#info_container h2 {
+	font-size: 16px;
+}

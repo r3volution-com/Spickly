@@ -1,0 +1,16 @@
+RELEASE 1.1
+	--Posibilidad de enviar correo con las novedades semanales (1-Enviar siempre 2-Enviar solo cuando haya mas de 1 semana de inactividad 3-No enviar nunca) (radio en ajustes) se hace una cookie de 1 semana y cada vez k caduke se envia el correo o algo semajante
+	--Implantar reconocimiento facial
+	--Hacer boton Me Gusta externo.
+	--API para accesos externos.
+	--Sistema de permisos basado en 2 (o mas segun se vea) rangos, Subscriptores y Amigos
+	--Hacer que despues de subirse las imagenes, se metan en una cola y se redirijan al etiquetador
+	- Pasar el parseText a JavaScript para el chat (Solo emoticonos y URL, no youtube)
+
+PARA AÑADIR POSTERIORMENTE
+	-SpickGames/SpickTv/SpickFM - ¿?
+	-Rss Noticias - ¿?
+	-LongSpacer (como espacio personal) - ¿?
+
+MARKETING
+	--Camisetas para la LAN Party

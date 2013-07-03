@@ -1,0 +1,153 @@
+html, body {
+	height: 100%; 
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-width: 1024px;
+	min-height: 720px;
+}
+body {
+	font-family: "Arial", "Verdana";
+	font-size: 14px;
+	background: url(grey.png) repeat center top;
+}
+footer{
+	height: 30%; 
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-width: 1024px;
+	background-color: #2da0f3;
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+}
+#login{
+	position: absolute;
+	text-align: center;
+	height: 260px;
+	width: 300px;
+	top:15%;
+	left:40%;
+	background-color: #F2F2F2;
+ 	-moz-border-radius:15px 15px 15px;
+ 	-webkit-border-radius: 15px 15px 15px;
+ 	box-shadow: 2px 5px 15px #999;
+}
+#logo{ 
+ 	background: url(logo.png) no-repeat; width: 299px; height: 102px;
+}
+
+#e-mail {
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 280px;
+	height: 30px;
+	padding-left: 10px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 5px;
+}
+
+#pass {
+	margin-top: 5%;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 280px;
+	height: 30px;
+	padding-left: 10px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 5px;
+}
+
+#enter {
+	font-size: 16px;
+	width: 70px;
+	height: 30px;
+	margin-top: 5%;
+	color: white;
+	font-size: 12px;
+	font-weight: 300;
+	border: 1px solid #ccc;
+	background-color: #848484;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#register_words {
+	width: 23%;
+	margin-left: 25px;
+	float: left;
+	line-height: 100%;
+}
+#register {
+	width: 50%;
+	float: left;
+	margin-top: 1%;
+}
+
+#tiempo{
+ 	position: realtive;
+	float: right;
+	margin: 55px;
+ 	text-align: center;
+	height: 150px; 
+	width: 300px;
+ 	background-color: #F2F2F2;
+ 	top: 5%;
+ 	-moz-border-radius:15px 15px 15px;
+ 	-webkit-border-radius: 15px 15px 15px;
+ 	box-shadow: 2px 5px 15px #999;
+}
+@-webkit-keyframes girar  {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    50% {
+
+      -webkit-transform: rotate(720deg);
+    }
+
+  }
+
+#sun{
+animation: girar 5s infinite;
+-webkit-animation: girar 5s infinite;
+}
+
+
+
+
+
+
+#name, #surname, #pass_register, #repass_register {
+	margin-top: 1%;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 138px;
+	height: 30px;
+	padding-left: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#city, #email_register {
+	margin-top: 1%;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 280px;
+	height: 30px;
+	padding-left: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#mobile img {
+	margin-top: 1%;
+	height: 70%;
+}

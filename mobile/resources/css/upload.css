@@ -1,0 +1,40 @@
+#drop_zone{
+	padding: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+	text-align: center;
+	background-color: white;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);	-moz-box-shadow: 0 1px 2px hsla(0,0%,0%,0.2);	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#progress_bar {
+    margin: 10px 0;
+    padding: 3px;
+    border: 1px solid #cccccc;
+	background-color: white;
+    font-size: 14px;
+    clear: both;
+    opacity: 0;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+    border-radius: 7px;
+}
+  
+#progress_bar.loading {
+    opacity: 1.0;
+}
+  
+#progress_bar .percent {
+    background-color: #99ccff;
+    height: auto;
+    width: 0;
+}
+
+#filelist li {
+	display: inline;
+}
+
+#upload_me h1, #upload_etic h1 {
+	font-weight: normal;
+}

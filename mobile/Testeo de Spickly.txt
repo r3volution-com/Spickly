@@ -1,0 +1,46 @@
+TESTEO INTENSIVO DE FUNCIONES BASICAS DE Spickly (Sin interacciones)
+INSIDE --Logueado--
+MPs
+--Mejorar el estilo de los MPS
+
+Buscador Eventos/Paginas
+---FALTA TESTEARLO----
+
+Search.php
+--Su funcion principal es ver los eventos y paginas en los que estas.
+--Tambien permite buscar paginas y filtrarlas por atributos
+--Tambien seria interesante que te permitiera buscar un evento de entre todos los que estas metido, para gente que tenga muchos.
+
+Visor de Fotos
+--Cuando comentas una foto sale raro el comentario hasta que recargas
+--No funciona boton de me gusta
+--No funciona boton de borrar foto
+--No te puedes poner la foto de perfil
+--Ya no funcionan las etiquetas
+
+Uploader Nuevo
+--La version no-Drag&Drop en chrome se sale, hay ejemplos en internet de como personalizar un input file solo con CSS.
+--La barra de porcentaje no aparece al soltar las fotos para que se suban
+--Al terminar de subir devuelve un alert con el JSON que ha devuelto, esto no lo veo muy conveniente XD
+--Estaria bien que salieran miniaturitas con enlaces de las fotos que se han subido, tal y como estaban en el otro uploader (Para eso es el JSON que devuelve).
+--Podemos elegir entre borrar el antiguo, o poner un enlace chiquitito en el nuevo por si alguien quiere subir muchas fotos de golpe o algo asi.
+
+Home
+-----FALTA TESTEAR TODOS LOS TIPOS DE NOVEDADES-----
+-----FALTA TESTEAR INVITACIONES A EVENTOS Y PAGINAS-----
+
+Ajustes
+--------SIN TESTEAR------
+
+Eventos 
+-------SIN TESTEAR------
+
+Paginas
+-------SIN TESTEAR-----
+
+Paginacion
+-----SIN TESTEAR------
+
+CUANDO ACABEMOS LO DE ARRIBA
+--Hacer publicidad y poner enlaces en todos lados para subir el pagerank
+--Pasar test de seguridad ante inyecciones SQL y otros

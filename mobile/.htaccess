@@ -1,0 +1,10 @@
+AddDefaultCharset utf-8
+RewriteEngine On
+RewriteBase /
+RewriteRule ^pr_(.+)/*$ in.php?p=profile&id=$1
+RewriteRule ^pa_(.+)/*$ in.php?p=pages&id=$1
+ErrorDocument 404 /error.php?e=404
+ErrorDocument 403 /error.php?e=403
+
+#SSLCertificateFile    /home/spickly/ssl/certs/spickly.es.crt
+#SSLCertificateKeyFile /home/spickly/ssl/private/spickly.es.key

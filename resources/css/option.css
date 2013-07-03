@@ -1,0 +1,21 @@
+#pass, #email, #apellidos, #nombre, #city, #pass2 {
+	position: relative;
+	border: 1px solid #CCC;
+	font-size: 16px;
+	width: 80%;
+	height: 30px;
+	margin: auto;
+	margin-top: 1%;
+	border-radius: 7px;
+}
+
+#cuadro1, #cuadro2 {
+	position: relative;
+	border: 1px solid #CCC;
+	font-size: 16px;
+	width: 80%;
+	height: 90%;
+	margin: auto;
+	margin-top: 1%;
+	border-radius: 7px;
+}

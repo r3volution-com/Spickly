@@ -1,0 +1,22 @@
+TESTEO INTENSIVO DE FUNCIONES BASICAS DE Spickly (Sin interacciones)
+Paginas
+--Invitar amigos deberia funcionar con Ajax, a ser posible igual que los eventos 
+
+Eventos 
+--Lo de las encuestas yo casi casi que lo reharia, por que va fatal y se ve feo y tal, tanto lo de crearlas como lo de votar y tal.
+
+Perfil
+--Cuando acabas de enviar un comentario o spacer (de cualquier tipo) y le das a borrar sin recargar la pagina, no se borra, creo que deberiamos volver al sistema ese de nuevos comentarios que decia juan por que el mysql_last_id parece que falla bastante.
+
+Comentarios
+--Las funciones de borrar se podrian unificar en el tools e in_actions
+--En algunos sitios cuando envias un comentario le falta el boton de - Eliminar
+--TESTEAR--
+
+Paginacion
+-----PRIMERO HAY QUE TESTEAR Y ARREGLAR LO DEMAS XD------
+
+
+CUANDO ACABEMOS LO DE ARRIBA
+--Hacer publicidad y poner enlaces en todos lados para subir el pagerank
+--Pasar test de seguridad ante inyecciones SQL y otros

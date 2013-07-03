@@ -1,0 +1,63 @@
+#response {
+	background: #ffffff; 
+	margin: 0;
+	padding: 3px;
+	width: 185px;
+	position: fixed;
+	top: 30px;
+	left: 68%;
+	border: none;
+	z-index:2;
+	border-radius: 10px;
+	display:none;
+}
+#response li{ 
+list-style:none;
+}
+
+#inboxin {
+	width:90%;
+	margin:0 auto;
+	background-color:white;
+	border-radius:10px;
+}
+
+#inboxin #titulo,#texto {
+	position:relative;
+	left:35px;
+	border-radius:10px;
+}
+
+#inboxin h2 {
+	padding-left:15px;
+	padding-top:15px;
+}
+
+#slidercontent img {
+	margin-left:5px;
+}
+
+#textoh {
+	position:relative;
+	top:30px;
+	left:100px;
+}
+
+#pages_friend {
+	border:1px solid white;
+	background-color: white;
+	padding:5px;
+	border-radius: 10px;
+}
+
+#editimg {
+	width:30px;
+	height:30px;
+}
+input[type=text] {
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}

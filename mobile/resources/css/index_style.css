@@ -1,0 +1,321 @@
+html, body {
+	height: 95%; 
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+body {
+	overflow-x: hidden;
+	font-family: "Arial", "Verdana";
+	background: -webkit-radial-gradient(#00B8F5, #1f4ccc);
+	background: radial-gradient(#00B8F5, #1f4ccc);
+	background: -moz-radial-gradient(#00B8F5, #1F4CCC);
+	background-color: #00B8F5;
+}
+
+#thermometer {
+	position: absolute; 
+	right: 10px;
+	height:150px; 
+	width:10px; 
+	background-color:#D1D7DF; 
+	padding:5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#mercury {
+	position: relative;
+	background-color:#CF3500; 
+	width:100%;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	z-index: 5;
+}
+.drop{
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background: #79dbfc;
+  border-radius: 0px 5px 5px 5px;
+  transform: rotate(45deg);
+}
+@-webkit-keyframes animar{
+	0%  { } 
+    50% { -webkit-transform:translateX(1200px) scale(1.2);}	 
+    100% {-webkit-transform:translateX(0px); }	
+}
+@-moz-keyframes animar{
+	0%  { } 
+    50% { -moz-transform:translateX(1200px) scale(1.2);}	 
+    100% {-moz-transform:translateX(0px); }	
+}
+.rain{   
+	position: absolute;
+	width:10px;
+	height:10px;   
+	border-radius:10px;
+	background-color:rgb(255, 255, 0);   
+}
+.sun{   
+	position: absolute;
+	width:120px;
+	height:120px;   
+	border-radius:120px;
+	background: -webkit-linear-gradient(#ffe365, #fcb13e);
+	background: radial-gradient(#ffe365, #fcb13e);
+	background: -moz-radial-gradient(#ffe365, #fcb13e);	
+	margin:35px 0 0 60px;   
+	animation: sun 2s infinite linear;
+    -moz-animation: sun 2s infinite linear;
+    -webkit-animation: sun 2s infinite linear;
+}
+ 
+@-webkit-keyframes sun {  
+	0% { -webkit-transform: rotate(0deg); }
+	10% { -webkit-transform: rotate(36deg); }
+	20% { -webkit-transform: rotate(72deg); }
+	30% { -webkit-transform: rotate(108deg); }
+	40% { -webkit-transform: rotate(144deg); }
+	50% { -webkit-transform: rotate(180deg); }
+	60% { -webkit-transform: rotate(216deg); }
+	70% { -webkit-transform: rotate(252deg); }
+	80% { -webkit-transform: rotate(288deg;) }
+	90% { -webkit-transform: rotate(324deg) }
+	100% {  -webkit-transform: rotate(360deg) }
+}
+@-moz-keyframes sun { 
+	from { -moz-transform: rotate(0deg) }
+    to   { -moz-transform: rotate(80deg) }
+}
+@keyframes sun { 
+	from { transform: rotate(0deg) }
+    to   { transform: rotate(80deg) }
+}
+.moon{   
+	position: absolute;
+	width:120px;
+	height:120px;   
+	border-radius:120px;
+	background-color:rgb(255, 255, 255);   
+	margin:35px 0 0 60px;   
+}
+.circ1{   
+	width:120px;
+	height:120px;   
+	border-radius:120px;
+	background-color:rgb(255, 255, 255);   
+	margin:20px 0 0 60px;   
+}
+.circ2{
+	width:150px;
+	height:80px;      
+	border-radius: 80px / 50px;
+	background-color:rgb(255, 255, 255);   
+	margin:-90px 0 0 80px;
+}
+.circ3{
+	width:150px;
+	height:90px;   
+	border-radius: 80px / 50px;
+	background-color:rgb(255, 255, 255);   
+	margin:-90px 0 0 0px;   
+}
+
+#sq{
+	-webkit-animation-name: animar;
+	-webkit-animation-duration: 50s;
+	-webkit-animation-timing-function: lineal;
+	-webkit-animation-iteration-count:infinite;	
+	-moz-animation-name: animar;
+	-moz-animation-duration: 50s;
+	-moz-animation-timing-function: lineal;
+	-moz-animation-iteration-count:infinite;	
+	opacity: 0.6;
+	margin:0;
+	position:absolute;
+}
+
+#sq2{
+	-webkit-animation-name: animar;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-timing-function: lineal;
+	-webkit-animation-iteration-count:infinite;	
+	-moz-animation-name: animar;
+	-moz-animation-duration: 30s;
+	-moz-animation-timing-function: lineal;
+	-moz-animation-iteration-count:infinite;	
+	opacity: 0.4;
+	position:absolute;
+	margin:30px 0 0 0;
+}
+
+#sq3{
+	-webkit-animation-name: animar;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: lineal;
+	-webkit-animation-iteration-count:infinite;	
+	-moz-animation-name: animar;
+	-moz-animation-duration: 20s;
+	-moz-animation-timing-function: lineal;
+	-moz-animation-iteration-count:infinite;	
+	opacity: 0.7;
+	position:absolute;
+	margin:100px 0 0 500px;
+}
+
+table {
+	border-spacing: 0px;
+	border: 0;
+}
+input[type="text"], input[type="password"] {
+	border: 1px solid black;
+	font-size: 16px;
+	width: 500px;
+	height: 30px;
+	text-align:center;
+}
+#top {
+	position: relative;
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+#login, #register, #rpass {
+	position: relative;
+	margin:0 auto;
+	width: 20%;
+}
+
+#register2 {
+	position: relative;
+	width: 20%;
+	background-color: white;
+}
+
+input[type="submit"] {	
+	position: relative;
+	background: -webkit-linear-gradient(#ffffff, #cccccc);
+	background: -moz-linear-gradient(#ffffff, #cccccc);
+	background: -o-linear-gradient(#ffffff, #cccccc);
+	width: 100%;
+	height: 30px;
+	border-radius: 7px;
+	border: 0;
+	margin: auto;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 16px;
+}
+
+hr {
+	position: relative;
+	background-color: #ccc;
+	width: 90%;
+	height: 1px;
+	border: 0px;
+	border-style: solid;
+	margin-top: 5%;
+	
+}
+
+#footer {
+	position: relative;
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+}
+ul{
+       list-style:none;
+  }
+li{
+       list-style:none;
+  }
+#logo {
+	position: relative;
+	margin: auto;
+	width: 655px;
+}
+
+#registrar, #loguear{
+	position: relative;
+	background: -webkit-linear-gradient(#ffffff, #cccccc);
+	background: -moz-linear-gradient(#ffffff, #cccccc);
+	background: -o-linear-gradient(#ffffff, #cccccc);
+	height: 30px;
+	border-radius: 7px;
+	border: 0;
+	font-size: 14px;
+}
+tr {
+	padding: 0px;
+	margin: 0px;
+}
+td {
+	padding: 0px;
+	margin: 0px;
+}
+th {
+	padding: 1px;
+	margin: 0px;
+}
+.nospace {
+	padding: 0px;
+	margin: 0px;
+}
+.first{
+	border-radius: 7px 7px 0 0;
+}
+.last{
+	border-radius: 0px 0px 7px 7px;
+}
+
+#login h6 {
+	font-size: 14px;
+	font-weight: lighter;
+	color: #4277d9;
+	margin-left: 10%;
+}
+.boton {
+	min-height: 30px;
+	min-width: 80px;
+	border-radius: 7px;
+	background: -webkit-linear-gradient(#518eff, #4b85f0);
+   	background: -moz-linear-gradient(#518eff, #4b85f0);
+   	background: -o-linear-gradient(#518eff, #4b85f0);
+	color: #fff;
+	border: 0px;
+	font-size: 12px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	/*padding: 10px;*/
+}
+
+
+#footer #seguridad {
+	text-align:left;
+	position:fixed;
+	right:20px;
+}
+
+#footer a {
+	padding-left:10px;
+}
+
+#register {
+	padding:10px; 
+	text-align:center; 
+	width:250px; 
+	background-color:white; 
+	border-radius:15px; 
+	display: none;
+}
+
+#register a {
+	color: blue;
+}
